@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    background-color: hsl(244, 38%, 16%);
+    width: 330px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.img-container {
+    background-color: hsl(277, 64%, 61%);
+}
+
+.img-container img {
+    width: 100%;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    vertical-align: top;
+}
+
+.text-container {
+    margin: 2em;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 1.8em;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.5);
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.stats-content {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.2em;
+    font-size: 0.75em;
+    letter-spacing: 1px;
+}
+
+.stats {
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 2.2em;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0.3em;
+    letter-spacing: 0;
+}
+
+.text-highlight {
+    color: hsl(277, 64%, 61%);
+}
+
+.attribution {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: hsl(0, 0%, 100%);
+    padding: 0.5em 0;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(277, 64%, 61%);
+}
+
+@media screen and (min-width: 1250px) {
+    .container {
+        width: fit-content;
+        height: 500px;
+        flex-direction: row;
+    }
+
+    .img-container {
+        order: 2;
+    }
+
+    .text-container {
+        order: 1;
+        margin: 3em 5em;
+        width: 30em;
+        padding-right: 4em;
+    }
+
+    .img-container img {
+        height: 100%;
+        width: auto;
+        vertical-align: bottom;
+        content: url(images/image-header-desktop.jpg);
+    }
+
+    h1 {
+        font-size: 2.8em;
+        text-align: left;
+    }
+
+    p {
+        font-size: 1.2em;
+        text-align: left;
+    }
+
+    .stats-container {
+        flex-direction: row;
+        text-align: left;
+        margin-top: 4em;
+    }
+
+    .stats-content {
+        margin-right: 7.8em;
+        font-size: 0.8em;
+    }
+}
