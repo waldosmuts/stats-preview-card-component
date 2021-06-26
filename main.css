@@ -94,7 +94,7 @@ p {
     color: hsl(277, 64%, 61%);
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 820px) {
     .container {
         width: fit-content;
         height: 500px;
