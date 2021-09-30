@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://waldosmuts.github.io/stats-preview-card-component/)
+- Live Site URL: [Stats Preview Card Component](https://waldosmuts.github.io/stats-preview-card-component/)
 
 ### Built with
 
@@ -37,4 +37,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/waldosmuts)
+- Frontend Mentor - [@waldosmuts](https://www.frontendmentor.io/profile/waldosmuts)
